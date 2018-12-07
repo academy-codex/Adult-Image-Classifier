@@ -11,11 +11,7 @@ class InputType(Enum):
 
 
 class OpenNsfwModel:
-    """Tensorflow implementation of Yahoo's Open NSFW Model
-
-    Original implementation:
-    https://github.com/yahoo/open_nsfw
-
+    """
     Weights have been converted using caffe-tensorflow:
     https://github.com/ethereon/caffe-tensorflow
     """
